@@ -1,0 +1,68 @@
+SSH_MANAGER_TYPE_CONNECTION_DB	connectiondb.c	31;"	d	file:
+SSH_MANAGER_CONNECTION_DB	connectiondb.c	32;"	d	file:
+SSH_MANAGER_CONNECTION_DB_CLASS	connectiondb.c	33;"	d	file:
+SSH_MANAGER_IS_CONNECTION_DB	connectiondb.c	34;"	d	file:
+SSH_MANAGER_IS_CONNECTION_DB_CLASS	connectiondb.c	35;"	d	file:
+SSH_MANAGER_CONNECTION_DB_GET_CLASS	connectiondb.c	36;"	d	file:
+SshManagerConnectionDb	connectiondb.c	/^typedef struct _SshManagerConnectionDb SshManagerConnectionDb;$/;"	t	typeref:struct:_SshManagerConnectionDb	file:
+SshManagerConnectionDbClass	connectiondb.c	/^typedef struct _SshManagerConnectionDbClass SshManagerConnectionDbClass;$/;"	t	typeref:struct:_SshManagerConnectionDbClass	file:
+SshManagerConnectionDbPrivate	connectiondb.c	/^typedef struct _SshManagerConnectionDbPrivate SshManagerConnectionDbPrivate;$/;"	t	typeref:struct:_SshManagerConnectionDbPrivate	file:
+_g_free0	connectiondb.c	41;"	d	file:
+_sqlite3_close0	connectiondb.c	42;"	d	file:
+_sqlite3_finalize0	connectiondb.c	43;"	d	file:
+SSH_MANAGER_TYPE_CONNECTION	connectiondb.c	45;"	d	file:
+SSH_MANAGER_CONNECTION	connectiondb.c	46;"	d	file:
+SSH_MANAGER_CONNECTION_CLASS	connectiondb.c	47;"	d	file:
+SSH_MANAGER_IS_CONNECTION	connectiondb.c	48;"	d	file:
+SSH_MANAGER_IS_CONNECTION_CLASS	connectiondb.c	49;"	d	file:
+SSH_MANAGER_CONNECTION_GET_CLASS	connectiondb.c	50;"	d	file:
+SshManagerConnection	connectiondb.c	/^typedef struct _SshManagerConnection SshManagerConnection;$/;"	t	typeref:struct:_SshManagerConnection	file:
+SshManagerConnectionClass	connectiondb.c	/^typedef struct _SshManagerConnectionClass SshManagerConnectionClass;$/;"	t	typeref:struct:_SshManagerConnectionClass	file:
+_g_object_unref0	connectiondb.c	54;"	d	file:
+_SshManagerConnectionDb	connectiondb.c	/^struct _SshManagerConnectionDb {$/;"	s	file:
+parent_instance	connectiondb.c	/^	GObject parent_instance;$/;"	m	struct:_SshManagerConnectionDb	file:
+priv	connectiondb.c	/^	SshManagerConnectionDbPrivate * priv;$/;"	m	struct:_SshManagerConnectionDb	file:
+_SshManagerConnectionDbClass	connectiondb.c	/^struct _SshManagerConnectionDbClass {$/;"	s	file:
+parent_class	connectiondb.c	/^	GObjectClass parent_class;$/;"	m	struct:_SshManagerConnectionDbClass	file:
+_SshManagerConnectionDbPrivate	connectiondb.c	/^struct _SshManagerConnectionDbPrivate {$/;"	s	file:
+db_name	connectiondb.c	/^	gchar* db_name;$/;"	m	struct:_SshManagerConnectionDbPrivate	file:
+db	connectiondb.c	/^	sqlite3* db;$/;"	m	struct:_SshManagerConnectionDbPrivate	file:
+stmt	connectiondb.c	/^	sqlite3_stmt* stmt;$/;"	m	struct:_SshManagerConnectionDbPrivate	file:
+rc	connectiondb.c	/^	gint rc;$/;"	m	struct:_SshManagerConnectionDbPrivate	file:
+command	connectiondb.c	/^	gchar* command;$/;"	m	struct:_SshManagerConnectionDbPrivate	file:
+ssh_manager_connection_db_parent_class	connectiondb.c	/^static gpointer ssh_manager_connection_db_parent_class = NULL;$/;"	v	file:
+SSH_MANAGER_CONNECTION_DB_GET_PRIVATE	connectiondb.c	77;"	d	file:
+SSH_MANAGER_CONNECTION_DB_DUMMY_PROPERTY	connectiondb.c	/^	SSH_MANAGER_CONNECTION_DB_DUMMY_PROPERTY$/;"	e	enum:__anon1	file:
+ssh_manager_connection_db_new	connectiondb.c	/^SshManagerConnectionDb* ssh_manager_connection_db_new (void);$/;"	p	file:
+ssh_manager_connection_db_construct	connectiondb.c	/^SshManagerConnectionDb* ssh_manager_connection_db_construct (GType object_type);$/;"	p	file:
+ssh_manager_connection_db_open_db	connectiondb.c	/^gint ssh_manager_connection_db_open_db (SshManagerConnectionDb* self);$/;"	p	file:
+ssh_manager_connection_db_set_command	connectiondb.c	/^void ssh_manager_connection_db_set_command (SshManagerConnectionDb* self, const gchar* command);$/;"	p	file:
+ssh_manager_connection_db_insert	connectiondb.c	/^gint ssh_manager_connection_db_insert (SshManagerConnectionDb* self);$/;"	p	file:
+__lambda4_	connectiondb.c	/^static gint __lambda4_ (SshManagerConnectionDb* self, gint s);$/;"	p	file:
+___lambda4__sqlite3_callback	connectiondb.c	/^static gint ___lambda4__sqlite3_callback (gpointer self, gint n_columns, gchar** values, gchar** column_names);$/;"	p	file:
+ssh_manager_connection_db_get_connections	connectiondb.c	/^GeeArrayList* ssh_manager_connection_db_get_connections (SshManagerConnectionDb* self);$/;"	p	file:
+ssh_manager_connection_new	connectiondb.c	/^SshManagerConnection* ssh_manager_connection_new (void);$/;"	p	file:
+ssh_manager_connection_construct	connectiondb.c	/^SshManagerConnection* ssh_manager_connection_construct (GType object_type);$/;"	p	file:
+ssh_manager_connection_set_id	connectiondb.c	/^void ssh_manager_connection_set_id (SshManagerConnection* self, gint value);$/;"	p	file:
+ssh_manager_connection_set_name	connectiondb.c	/^void ssh_manager_connection_set_name (SshManagerConnection* self, const gchar* value);$/;"	p	file:
+ssh_manager_connection_set_url	connectiondb.c	/^void ssh_manager_connection_set_url (SshManagerConnection* self, const gchar* value);$/;"	p	file:
+ssh_manager_connection_set_password	connectiondb.c	/^void ssh_manager_connection_set_password (SshManagerConnection* self, const gchar* value);$/;"	p	file:
+ssh_manager_connection_get_name	connectiondb.c	/^const gchar* ssh_manager_connection_get_name (SshManagerConnection* self);$/;"	p	file:
+ssh_manager_connection_get_id	connectiondb.c	/^gint ssh_manager_connection_get_id (SshManagerConnection* self);$/;"	p	file:
+ssh_manager_connection_get_url	connectiondb.c	/^const gchar* ssh_manager_connection_get_url (SshManagerConnection* self);$/;"	p	file:
+ssh_manager_connection_get_password	connectiondb.c	/^const gchar* ssh_manager_connection_get_password (SshManagerConnection* self);$/;"	p	file:
+ssh_manager_connection_db_finalize	connectiondb.c	/^static void ssh_manager_connection_db_finalize (GObject * obj);$/;"	p	file:
+ssh_manager_connection_db_construct	connectiondb.c	/^SshManagerConnectionDb* ssh_manager_connection_db_construct (GType object_type) {$/;"	f
+ssh_manager_connection_db_new	connectiondb.c	/^SshManagerConnectionDb* ssh_manager_connection_db_new (void) {$/;"	f
+ssh_manager_connection_db_set_command	connectiondb.c	/^void ssh_manager_connection_db_set_command (SshManagerConnectionDb* self, const gchar* command) {$/;"	f
+ssh_manager_connection_db_open_db	connectiondb.c	/^gint ssh_manager_connection_db_open_db (SshManagerConnectionDb* self) {$/;"	f
+_sqlite3_exec	connectiondb.c	/^static gint _sqlite3_exec (sqlite3* self, const gchar* sql, sqlite3_callback callback, void* callback_target, gchar* * errmsg) {$/;"	f	file:
+__lambda4_	connectiondb.c	/^static gint __lambda4_ (SshManagerConnectionDb* self, gint s) {$/;"	f	file:
+___lambda4__sqlite3_callback	connectiondb.c	/^static gint ___lambda4__sqlite3_callback (gpointer self, gint n_columns, gchar** values, gchar** column_names) {$/;"	f	file:
+ssh_manager_connection_db_insert	connectiondb.c	/^gint ssh_manager_connection_db_insert (SshManagerConnectionDb* self) {$/;"	f
+_g_object_ref0	connectiondb.c	/^static gpointer _g_object_ref0 (gpointer self) {$/;"	f	file:
+ssh_manager_connection_db_get_connections	connectiondb.c	/^GeeArrayList* ssh_manager_connection_db_get_connections (SshManagerConnectionDb* self) {$/;"	f
+ssh_manager_connection_db_class_init	connectiondb.c	/^static void ssh_manager_connection_db_class_init (SshManagerConnectionDbClass * klass) {$/;"	f	file:
+ssh_manager_connection_db_instance_init	connectiondb.c	/^static void ssh_manager_connection_db_instance_init (SshManagerConnectionDb * self) {$/;"	f	file:
+ssh_manager_connection_db_finalize	connectiondb.c	/^static void ssh_manager_connection_db_finalize (GObject * obj) {$/;"	f	file:
+ssh_manager_connection_db_get_type	connectiondb.c	/^GType ssh_manager_connection_db_get_type (void) {$/;"	f

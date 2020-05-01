@@ -1,0 +1,57 @@
+Build started at 2020-05-01T17:53:13.811208
+Main binary: /usr/bin/python
+Build Options: -Dbuildtype=debug -Dlayout=flat -Dbackend=ninja
+Python system: Linux
+The Meson build system
+Version: 0.54.0
+Source dir: /home/sandro/Documentos/Projects/Locals/SshManger
+Build dir: /home/sandro/Documentos/Projects/Locals/SshManger/build
+Build type: native build
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Project name: sshmanger
+Project version: 0.1.0
+C compiler for the build machine: cc (gcc 9.3.0 "cc (Arch Linux 9.3.0-1) 9.3.0")
+C linker for the build machine: cc ld.bfd 2.34
+None of 'AR' are defined in the environment, not changing global flags.
+Vala compiler for the build machine: valac (valac 0.48.5)
+C compiler for the host machine: cc (gcc 9.3.0 "cc (Arch Linux 9.3.0-1) 9.3.0")
+C linker for the host machine: cc ld.bfd 2.34
+None of 'AR' are defined in the environment, not changing global flags.
+Vala compiler for the host machine: valac (valac 0.48.5)
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program desktop-file-validate found: YES (/usr/bin/desktop-file-validate)
+Adding test "Validate desktop file"
+Program appstream-util found: YES (/usr/bin/appstream-util)
+Adding test "Validate appstream file"
+Program glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Adding test "Validate schema file"
+Dependency gio-2.0 found: YES 2.64.2 (cached)
+Dependency gtk+-3.0 found: YES 3.24.17 (cached)
+Dependency vte-2.91 found: YES 0.60.2 (cached)
+Dependency sqlite3 found: YES 3.31.1 (cached)
+Dependency gee-0.8 found: YES 0.20.3 (cached)
+Program build-aux/meson/postinstall.py found: YES (/home/sandro/Documentos/Projects/Locals/SshManger/build-aux/meson/postinstall.py)
+Build targets in project: 6
+
+Found ninja-1.10.0 at /usr/bin/ninja
+Running compile:
+Working directory:  /home/sandro/Documentos/Projects/Locals/SshManger/build/meson-private/tmp0hbamz56
+Command line:  cc /home/sandro/Documentos/Projects/Locals/SshManger/build/meson-private/tmp0hbamz56/testfile.c -o /home/sandro/Documentos/Projects/Locals/SshManger/build/meson-private/tmp0hbamz56/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/
+programs: =/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../x86_64-pc-linux-gnu/bin/x86_64-pc-linux-gnu/9.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../x86_64-pc-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../x86_64-pc-linux-gnu/lib/x86_64-pc-linux-gnu/9.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../x86_64-pc-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../x86_64-pc-linux-gnu/9.3.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib/:/lib/x86_64-pc-linux-gnu/9.3.0/:/lib/../lib/:/usr/lib/x86_64-pc-linux-gnu/9.3.0/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+None of 'STRIP' are defined in the environment, not changing global flags.
+None of 'STRIP' are defined in the environment, not changing global flags.
