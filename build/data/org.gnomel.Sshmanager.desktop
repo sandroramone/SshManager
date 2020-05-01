@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=sshmanger
-Exec=sshmanger
-Terminal=false
-Type=Application
-Categories=GTK;
-StartupNotify=true
